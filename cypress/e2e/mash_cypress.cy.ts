@@ -9,6 +9,12 @@ describe("create a new service", () => {
     );
   });
 
+  it("test 2nd", () => {
+    cy.get("[data-test='hero-heading']").contains(
+      "Find in-depth information about Next.js features and API."
+    );
+  });
+
   // it.only("the features on the homepage are correct", () => {
   //   cy.get("dt")
   //     .eq(0)
